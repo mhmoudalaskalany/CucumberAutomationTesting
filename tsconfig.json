@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "esnext",
+        "module": "commonjs",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "strict": false,
+        "allowJs": true,
+        "baseUrl": ".",
+    }
+}
