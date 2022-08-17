@@ -17,7 +17,6 @@
     "@cucumber/cucumber": "^8.5.1",
     "@cucumber/pretty-formatter": "^1.0.0",
     "@types/chai": "^4.3.3",
-    "@types/cucumber": "^7.0.0",
     "@types/node": "^18.7.6",
     "@types/selenium-webdriver": "^4.1.2",
     "chai": "^4.3.6",
