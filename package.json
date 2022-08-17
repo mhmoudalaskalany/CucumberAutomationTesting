@@ -7,7 +7,7 @@
     "build": "tsc",
     "clean": "rm -rf dist target/*",
     "clean-build": "npm run clean && npm run build",
-    "cucumber-js": "node_modules/cucumber/bin/cucumber-js",
+    "cucumber": "./node_modules/@cucumber/cucumber/bin/cucumber-js -f @cucumber/pretty-formatter",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,20 +15,17 @@
   "license": "ISC",
   "dependencies": {
     "@cucumber/cucumber": "^8.5.1",
-    "@types/node": "^18.7.6",
-    "@types/selenium-webdriver": "^4.1.2",
-    "chromedriver": "^104.0.0",
-    "dotenv": "^16.0.1",
-    "geckodriver": "^3.0.2",
-    "selenium-webdriver": "^4.4.0"
-  },
-  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
     "@types/chai": "^4.3.3",
     "@types/cucumber": "^7.0.0",
+    "@types/node": "^18.7.6",
+    "@types/selenium-webdriver": "^4.1.2",
     "chai": "^4.3.6",
-    "cucumber": "^6.0.7",
-    "cucumber-pretty": "^6.0.1",
+    "chromedriver": "^104.0.0",
     "cucumber-tsflow": "^4.0.0-preview.7",
+    "dotenv": "^16.0.1",
+    "geckodriver": "^3.0.2",
+    "selenium-webdriver": "^4.4.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   }
