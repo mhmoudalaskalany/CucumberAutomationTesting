@@ -7,7 +7,7 @@
     "build": "tsc",
     "clean": "rm -rf dist target/*",
     "clean-build": "npm run clean && npm run build",
-    "cucumber": "./node_modules/@cucumber/cucumber/bin/cucumber-js -f @cucumber/pretty-formatter",
+    "cucumber": "tsc && ./node_modules/@cucumber/cucumber/bin/cucumber-js -f @cucumber/pretty-formatter   -p default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
